@@ -1,5 +1,8 @@
 # Markdown(github规范) 常用技巧归类#
 ---
+
+## jump ##
+
 ### 兼容HTML ###
 HTML侧重发布格式，Markdown侧重书写格式
 
@@ -72,3 +75,4 @@ public static void main(String[] args);
 		- [ ] baidu
 * emoji表情，```:emoji:```
 :man: :sunny: :cake: :smile: :cry:
+* [行内跳转](#jump)
