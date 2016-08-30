@@ -50,7 +50,7 @@ public static void main(String[] args);
 	System.out.println();
 	int main();
 
-### 区段元素 ###
+<h3 id="区段元素">区段元素</h3>
 * 链接，行内式: `[百度](www.baidu.com "百度一下")`　参考式：`[百度][baidu]　　另一个段落中：[baidu]: www.baidu.com`
 * 图片，行内式：`!\[IMG](/d/xyh.jpg "xyh")`,图片可以是绝对路径或者相对路径　　参考式：同链接语法
 
@@ -72,4 +72,5 @@ public static void main(String[] args);
 		- [ ] baidu
 * emoji表情，```:emoji:```
 :man: :sunny: :cake: :smile: :cry:
-* [行内跳转](#区块元素), 必须是标题才可以跳转
+* [行内跳转](#区块元素),必须是标题才可以跳转,且这种方式只在github上有效，HTML上无效因为标题的id号没有被映射成 区块元素
+* [行内跳转](#区段元素),标题必须用HTML写，且指定id为区段元素
